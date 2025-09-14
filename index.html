@@ -3,47 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Funda de Cama Premium – Calidad, Comodidad y Estilo</title>
-  <meta name="description" content="Fundas de cama de alta calidad. Tejido suave, diseño elegante, lavado fácil y perfecta para transformar tu dormitorio." />
-  <meta name="keywords" content="funda de cama, ropa de cama, cama elegante, funda cama premium, fundas de cama con estilo" />
+  <title>Amazon Fire TV Stick 4K – Streaming Ultra HD con Alexa</title>
+  <meta name="description" content="Convierte tu TV en un centro multimedia con Amazon Fire TV Stick 4K. Streaming en 4K, control por voz Alexa, acceso a Netflix, Prime Video y más." />
+  <meta name="keywords" content="Amazon Fire TV Stick, Fire TV, Streaming 4K, Alexa, Prime Video, Netflix" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     /* Reset básico */
     * {
-      margin: 0;
-      padding: 0;
+      margin: 0; 
+      padding: 0; 
       box-sizing: border-box;
     }
     body {
       font-family: 'Montserrat', sans-serif;
-      background-color: #f7f5f0;
-      color: #333;
+      background-color: #f5f2ea; /* beige claro */
+      color: #2f4f4f; /* verde oscuro */
       line-height: 1.6;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
-      min-height: 100vh;
     }
     .container {
       max-width: 960px;
       margin: 40px auto;
       padding: 25px 30px;
-      background-color: #ffffff;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      background-color: #fffdfa; /* blanco muy suave */
+      border-radius: 14px;
+      box-shadow: 0 8px 20px rgba(79, 121, 104, 0.15);
     }
     header {
       text-align: center;
       margin-bottom: 40px;
     }
     header h1 {
-      font-size: 2.5rem;
-      color: #5a4d3d;
+      font-size: 2.8rem;
+      color: #4a7a66; /* verde medio */
       margin-bottom: 12px;
       font-weight: 700;
     }
     header p {
       font-size: 1.15rem;
-      color: #766c59;
+      color: #557b6e; /* verde grisáceo */
       font-weight: 500;
     }
     .hero-image {
@@ -51,12 +51,14 @@
       margin-bottom: 40px;
     }
     .hero-image img {
-      max-width: 400px;
+      max-width: 350px;
       width: 100%;
       height: auto;
-      border-radius: 12px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      border-radius: 14px;
+      box-shadow: 0 6px 20px rgba(74, 122, 102, 0.3);
     }
+
+    /* Beneficios con iconos */
     .benefits {
       display: flex;
       flex-wrap: wrap;
@@ -66,83 +68,142 @@
     }
     .benefit {
       flex: 1 1 45%;
-      background: #f0ece5;
-      border-left: 6px solid #5a4d3d;
+      background: #e6f0e9; /* verde muy claro */
+      border-left: 6px solid #4a7a66;
       padding: 20px 25px;
       border-radius: 10px;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+      box-shadow: 0 3px 12px rgba(74, 122, 102, 0.15);
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+      min-width: 260px;
+      font-weight: 600;
       font-size: 1.05rem;
-      color: #4a4033;
+      color: #3a5749;
     }
+    .benefit svg {
+      fill: #4a7a66;
+      width: 38px;
+      height: 38px;
+      flex-shrink: 0;
+      margin-top: 4px;
+    }
+
+    /* Características técnicas */
     .features {
       margin-bottom: 50px;
     }
     .features h2 {
-      color: #5a4d3d;
+      color: #4a7a66;
       font-size: 2rem;
       margin-bottom: 24px;
-      border-bottom: 3px solid #5a4d3d;
+      border-bottom: 3px solid #4a7a66;
       padding-bottom: 8px;
-      max-width: 320px;
+      max-width: 340px;
     }
     .features ul {
       list-style: none;
-      padding-left: 20px;
-      color: #4a4033;
+      padding-left: 22px;
+      color: #446655;
       font-weight: 500;
       font-size: 1.1rem;
     }
     .features ul li {
-      padding: 10px 0;
-      border-bottom: 1px solid #ddd;
+      padding: 12px 0;
+      border-bottom: 1px solid #d4e1d9;
     }
+
+    /* Testimonios */
+    .testimonials {
+      background-color: #e6f0e9;
+      padding: 30px 25px;
+      border-radius: 14px;
+      box-shadow: 0 6px 18px rgba(74, 122, 102, 0.15);
+      margin-bottom: 50px;
+      color: #3a5749;
+    }
+    .testimonials h2 {
+      color: #4a7a66;
+      font-size: 2rem;
+      margin-bottom: 36px;
+      text-align: center;
+      max-width: 340px;
+      margin-left: auto;
+      margin-right: auto;
+      border-bottom: 3px solid #4a7a66;
+      padding-bottom: 8px;
+    }
+    .testimonial {
+      font-style: italic;
+      margin-bottom: 28px;
+      position: relative;
+      padding-left: 42px;
+      font-weight: 500;
+    }
+    .testimonial::before {
+      content: "“";
+      font-size: 3.2rem;
+      color: #4a7a66;
+      position: absolute;
+      left: 0;
+      top: -10px;
+      font-weight: 700;
+      line-height: 1;
+    }
+    .testimonial cite {
+      display: block;
+      margin-top: 10px;
+      font-style: normal;
+      font-weight: 700;
+      color: #2f4f4f;
+      text-align: right;
+    }
+
+    /* CTA botón */
     .cta {
       text-align: center;
       margin-bottom: 40px;
     }
     .cta a {
-      background-color: #5a4d3d;
+      background-color: #4a7a66;
       color: #fff;
-      padding: 18px 40px;
-      font-size: 1.2rem;
+      padding: 18px 44px;
+      font-size: 1.3rem;
       font-weight: 700;
       border-radius: 12px;
       text-decoration: none;
+      box-shadow: 0 6px 18px rgba(74, 122, 102, 0.8);
       transition: background-color 0.3s ease;
       display: inline-block;
+      letter-spacing: 0.03em;
     }
     .cta a:hover {
-      background-color: #4c4133;
+      background-color: #3a5e4d;
     }
+
+    /* Footer */
     footer {
       text-align: center;
-      padding: 20px 10px;
+      padding: 22px 12px;
       font-size: 0.9rem;
-      color: #777;
-      border-top: 1px solid #ddd;
+      color: #7a8b7e;
+      border-top: 1px solid #d4e1d9;
       margin-top: auto;
+      background-color: #fffdfa;
+      font-weight: 500;
     }
 
     /* Responsive */
-    @media (max-width: 700px) {
+    @media(max-width: 700px) {
       .benefits {
         flex-direction: column;
-        gap: 20px;
+        gap: 18px;
       }
       .benefit {
         flex: 1 1 100%;
       }
-      .features h2 {
+      .features h2, .testimonials h2 {
         max-width: 100%;
-      }
-      header h1 {
-        font-size: 2rem;
-      }
-      .hero-image img {
-        max-width: 90%;
-      }
-      .cta a {
-        width: 100%;
       }
     }
   </style>
@@ -150,47 +211,68 @@
 <body>
   <div class="container" role="main">
     <header>
-      <h1>Fundas de Cama Premium</h1>
-      <p>Transforma tu dormitorio con estilo, confort y calidad.</p>
+      <h1>Amazon Fire TV Stick 4K</h1>
+      <p>Streaming Ultra HD con Alexa: convierte tu TV en el centro de entretenimiento definitivo.</p>
     </header>
 
     <div class="hero-image">
-      <img src="https://via.placeholder.com/400x400.png?text=Funda+de+Cama" alt="Funda de cama premium de calidad" />
+      <img src="https://m.media-amazon.com/images/I/91W6Q95zqfL._UF894,1000_QL80_.jpg" alt="Amazon Fire TV Stick 4K" />
     </div>
 
     <section class="benefits" aria-label="Beneficios destacados">
       <div class="benefit">
-        Suavidad superior para dormir cómodo cada noche.
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15 8l6 1-4 4 1 6-5-3-5 3 1-6-4-4 6-1z"/></svg>
+        <p>Streaming en calidad Ultra HD 4K compatible con HDR10+, Dolby Vision y Dolby Atmos para sonido envolvente.</p>
       </div>
       <div class="benefit">
-        Diseño elegante que combina con tu habitación.
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22c-5.52 0-10-4.48-10-10S6.48 2 12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10zM11 6h2v6h-2zm0 8h2v2h-2z"/></svg>
+        <p>Control por voz con Alexa integrado para buscar contenido y controlar dispositivos sin usar controles.</p>
       </div>
       <div class="benefit">
-        Fácil cuidado: lavable, resistente y duradero.
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h16v2H4zM4 8h10v2H4zM4 12h14v2H4zM4 16h7v2H4z"/></svg>
+        <p>Compatibilidad con Netflix, Prime Video, Disney+, YouTube, HBO Max y miles de apps para streaming y juegos.</p>
       </div>
       <div class="benefit">
-        Amplia variedad de tamaños para todo tipo de cama.
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3 10.28 3 12 5.28 12 5.28S13.72 3 16.5 3c3.08 0 5.5 2.42 5.5 5.5 0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+        <p>Fácil instalación y uso inmediato: conecta a cualquier TV con HDMI y listo.</p>
+      </div>
+      <div class="benefit">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14a2 2 0 002 2h14a2 2 0 002
+        /></svg>
+        <p>Portabilidad para llevar tu entretenimiento a cualquier lugar.</p>
       </div>
     </section>
 
     <section class="features" aria-label="Características técnicas">
-      <h2>Características principales</h2>
+      <h2>Características técnicas</h2>
       <ul>
-        <li>Material: algodón / mezcla de algodón de alta calidad</li>
-        <li>Textura respirable y suave al tacto</li>
-        <li>Resistente a lavados frecuentes sin perder forma ni color</li>
-        <li>Cierre oculto o botones resistentes</li>
-        <li>Tamaño disponible: individual, matrimonial, queen, king</li>
+        <li>Resolución 4K Ultra HD (2160p) para imágenes nítidas y detalladas.</li>
+        <li>Procesador Quad-core para rendimiento fluido y rápido.</li>
+        <li>Compatible con HDR10+ y Dolby Vision para colores vivos.</li>
+        <li>Conectividad Wi-Fi dual-band para streaming sin interrupciones.</li>
+        <li>Control remoto con Alexa integrado y control por voz.</li>
       </ul>
+    </section>
+
+    <section class="testimonials" aria-label="Opiniones de clientes">
+      <h2>Testimonios</h2>
+      <div class="testimonial">
+        “Este dispositivo transformó mi forma de ver TV. La calidad de imagen es impresionante y Alexa es súper útil.”
+        <cite>— María López</cite>
+      </div>
+      <div class="testimonial">
+        “Muy fácil de usar y configurar. Puedo acceder a todas mis aplicaciones favoritas sin problemas.”
+        <cite>— Carlos Martínez</cite>
+      </div>
     </section>
 
     <div class="cta">
       <a href="https://amzn.to/4mjBGGB" target="_blank" rel="noopener noreferrer">Comprar ahora en Amazon</a>
     </div>
-  </div>
 
-  <footer>
-    © 2025 Fundas de Cama Premium. Todos los derechos reservados.
-  </footer>
+    <footer>
+      &copy; 2025 Amazon Fire TV Stick. Sitio creado con ❤️
+    </footer>
+  </div>
 </body>
 </html>
